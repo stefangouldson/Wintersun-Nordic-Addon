@@ -1,0 +1,20 @@
+FormKey: 00080A:WintersunNordicDivines.esp
+EditorID: WSN_Divine_Kyne_Boon2_Effect_Ab
+Name:
+  TargetLanguage: English
+  Value: Breath of Kyne
+MenuDisplayObject: 00F93C:Wintersun - Faiths of Skyrim.esp
+Flags:
+- Recover
+- NoHitEvent
+- NoArea
+- NoHitEffect
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  ActorValue: ShoutRecoveryMult
+DualCastScale: 1
+CastingSoundLevel: Silent
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: Time between shouts is reduced by 20%.

@@ -1,0 +1,7 @@
+{
+  "PackageName": "TestPackage",
+  "Version": "0.40.0",
+  "Source": "Spriggit.Yaml.Skyrim",
+  "Release": "SkyrimSE",
+  "KnownMasters": []
+}

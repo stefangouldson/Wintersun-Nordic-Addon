@@ -1,0 +1,29 @@
+FormKey: 000803:WintersunNordicDivines.esp
+EditorID: WSN_WorshipRequest_Message_Divine_Kyne
+Description:
+  TargetLanguage: English
+  Value: >-
+    Follow the Nordic Goddess Kyne?
+
+
+    Kyne is the Nordic goddess of wind and sky, chief deity of the ancient Nordic pantheon. She taught mankind the Voice and guides the storms across Skyrim.
+
+
+    Follower:
+
+    Move faster in combat.
+
+
+    Tenets:
+
+    Explore new locations. Strive to raise your Stamina. Receive the Voice of the Sky. Pray only outdoors. Never openly break the laws of Skyrim.
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Accept Kyne
+- Text:
+    TargetLanguage: English
+    Value: Cancel
