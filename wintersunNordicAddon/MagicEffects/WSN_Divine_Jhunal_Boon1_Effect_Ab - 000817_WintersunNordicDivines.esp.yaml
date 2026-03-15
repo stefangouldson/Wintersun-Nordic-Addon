@@ -1,0 +1,28 @@
+FormKey: 000817:WintersunNordicDivines.esp
+EditorID: WSN_Divine_Jhunal_Boon1_Effect_Ab
+Name:
+  TargetLanguage: English
+  Value: Runic Insight
+MenuDisplayObject: 00F93C:Wintersun - Faiths of Skyrim.esp
+Flags:
+- Recover
+- NoHitEvent
+- NoArea
+- PowerAffectsMagnitude
+- NoHitEffect
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  Type: Script
+DualCastScale: 1
+PerkToApply: 019B75:Wintersun - Faiths of Skyrim.esp
+CastingSoundLevel: Silent
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: Spells cost <Global=WSN_Favor_Global_Fractional>% less to cast (based on favor with Jhunal).
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    Object: 000007:Skyrim.esm
+  ComparisonValue: 1

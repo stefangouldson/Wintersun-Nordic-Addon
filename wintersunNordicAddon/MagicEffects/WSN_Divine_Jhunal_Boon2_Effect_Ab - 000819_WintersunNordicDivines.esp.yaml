@@ -1,0 +1,28 @@
+FormKey: 000819:WintersunNordicDivines.esp
+EditorID: WSN_Divine_Jhunal_Boon2_Effect_Ab
+Name:
+  TargetLanguage: English
+  Value: Wisdom of Wise-Wing
+MenuDisplayObject: 00F93C:Wintersun - Faiths of Skyrim.esp
+Flags:
+- Recover
+- NoHitEvent
+- NoArea
+- PowerAffectsMagnitude
+- NoHitEffect
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  Type: Script
+DualCastScale: 1
+PerkToApply: 014A5B:Wintersun - Faiths of Skyrim.esp
+CastingSoundLevel: Silent
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: Spells and scrolls are <Global=WSN_Favor_Global_Fractional>% more effective (based on favor with Jhunal).
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: GetIsIDConditionData
+    Object: 000007:Skyrim.esm
+  ComparisonValue: 1

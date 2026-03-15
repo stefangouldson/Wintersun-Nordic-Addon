@@ -1,20 +1,37 @@
 """
-Extend all 52-element deity arrays in the Nordic addon TrackerQuest
-with a new Kyne entry (index 52), cloned from Kynareth (index 17).
+Extend all 53-element deity arrays in the Nordic addon TrackerQuest
+with a new Jhunal entry (index 53), cloned from Julianos (index 0).
 Modifies the file in-place using text-based insertion to preserve YAML formatting.
 """
 
 TARGET = r"wintersunNordicAddon\Quests\WSN_TrackerQuest_Quest - 005901_Wintersun - Faiths of Skyrim.esp.yaml"
-KYNARETH_INDEX = 17
+CLONE_INDEX = 0  # Julianos
+CURRENT_SIZE = 53  # arrays currently have 53 elements (0-52, Kyne is 52)
 
-# Overrides: instead of cloning Kynareth verbatim, use these values for Kyne
+# Overrides for Jhunal
 OVERRIDES = {
-    'WSN_DeityName': ['      - Kyne\n'],
+    'WSN_DeityName': ['      - Jhunal\n'],
     'WSN_DivineType': ['      - Nordic Deity\n'],
     'WSN_DivineTypeID': ['      - 0\n'],
     'WSN_Blessing': [
         "      - Name: ''\n",
-        "        Object: 000801:WintersunNordicDivines.esp\n",
+        "        Object: 000811:WintersunNordicDivines.esp\n",
+    ],
+    'WSN_FavorDisplay': [
+        "      - Name: ''\n",
+        "        Object: 000814:WintersunNordicDivines.esp\n",
+    ],
+    'WSN_Tenet': [
+        "      - Name: ''\n",
+        "        Object: 000816:WintersunNordicDivines.esp\n",
+    ],
+    'WSN_Boon1': [
+        "      - Name: ''\n",
+        "        Object: 000818:WintersunNordicDivines.esp\n",
+    ],
+    'WSN_Boon2': [
+        "      - Name: ''\n",
+        "        Object: 00081A:WintersunNordicDivines.esp\n",
     ],
 }
 
@@ -41,7 +58,7 @@ def find_list_blocks(lines):
 
             if data_line_idx is not None:
                 elements = parse_elements(lines, data_line_idx + 1)
-                if len(elements) == 52:
+                if len(elements) == CURRENT_SIZE:
                     blocks.append({
                         'prop_name': prop_name,
                         'prop_type': prop_type,
@@ -112,12 +129,12 @@ def main():
         if name in OVERRIDES:
             new_lines = OVERRIDES[name]
         else:
-            # Clone element 17
-            e17_start, e17_end = elems[KYNARETH_INDEX]
-            new_lines = list(lines[e17_start:e17_end])
+            # Clone element at CLONE_INDEX
+            src_start, src_end = elems[CLONE_INDEX]
+            new_lines = list(lines[src_start:src_end])
 
         lines[insert_pos:insert_pos] = new_lines
-        print(f"  {name}: added Kyne entry ({len(new_lines)} lines)")
+        print(f"  {name}: added Jhunal entry ({len(new_lines)} lines)")
 
     with open(TARGET, 'w', encoding='utf-8', newline='\n') as f:
         f.writelines(lines)

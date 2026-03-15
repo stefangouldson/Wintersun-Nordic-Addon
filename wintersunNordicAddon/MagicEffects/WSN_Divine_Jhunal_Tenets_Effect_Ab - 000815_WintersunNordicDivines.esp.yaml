@@ -1,0 +1,23 @@
+FormKey: 000815:WintersunNordicDivines.esp
+EditorID: WSN_Divine_Jhunal_Tenets_Effect_Ab
+Name:
+  TargetLanguage: English
+  Value: Tenets of Jhunal
+MenuDisplayObject: 00F93C:Wintersun - Faiths of Skyrim.esp
+Flags:
+- Recover
+- NoHitEvent
+- NoDuration
+- NoMagnitude
+- NoArea
+- NoHitEffect
+SpellmakingCastingTime: 0.5
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  Type: Script
+DualCastScale: 1
+CastingSoundLevel: Silent
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: Master the skills of the Mage. Strive to raise your Magicka. Never openly break the laws of Skyrim.

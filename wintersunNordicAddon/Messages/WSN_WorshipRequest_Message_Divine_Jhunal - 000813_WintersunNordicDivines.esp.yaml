@@ -1,0 +1,29 @@
+FormKey: 000813:WintersunNordicDivines.esp
+EditorID: WSN_WorshipRequest_Message_Divine_Jhunal
+Description:
+  TargetLanguage: English
+  Value: >-
+    Follow the Nordic God Jhunal?
+
+
+    The Rune God of hermetic orders, knowledge and wisdom
+
+
+    Follower:
+
+    Spells cost less Magicka.
+
+
+    Tenets:
+
+    Master the skills of the Mage. Strive to raise your Magicka. Never openly break the laws of Skyrim.
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Accept Jhunal
+- Text:
+    TargetLanguage: English
+    Value: Cancel
