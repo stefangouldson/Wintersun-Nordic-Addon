@@ -14,5 +14,4 @@ Flags:
 Type: Ability
 Effects:
 - BaseEffect: 000817:WintersunNordicDivines.esp
-  Data:
-    Magnitude: 15
+  Data: {}

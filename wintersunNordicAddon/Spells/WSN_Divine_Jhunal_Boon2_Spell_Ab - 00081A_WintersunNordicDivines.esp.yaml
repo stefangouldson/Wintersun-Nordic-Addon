@@ -15,4 +15,4 @@ Type: Ability
 Effects:
 - BaseEffect: 000819:WintersunNordicDivines.esp
   Data:
-    Magnitude: 2
+    Magnitude: 15
