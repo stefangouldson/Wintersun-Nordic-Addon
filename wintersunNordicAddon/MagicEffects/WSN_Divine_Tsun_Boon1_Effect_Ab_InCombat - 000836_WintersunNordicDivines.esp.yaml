@@ -1,0 +1,22 @@
+FormKey: 000836:WintersunNordicDivines.esp
+EditorID: WSN_Divine_Tsun_Boon1_Effect_Ab_InCombat
+Name:
+  TargetLanguage: English
+  Value: Regenerate Health
+MenuDisplayObject: 00F93C:Wintersun - Faiths of Skyrim.esp
+Flags:
+- Recover
+- NoHitEvent
+- NoArea
+- HideInUI
+- PowerAffectsMagnitude
+- NoHitEffect
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  ActorValue: HealRateMult
+DualCastScale: 1
+CastingSoundLevel: Silent
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: ''

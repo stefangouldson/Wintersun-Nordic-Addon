@@ -1,37 +1,37 @@
 """
-Extend all 54-element deity arrays in the Nordic addon TrackerQuest
-with a new Stuhn entry (index 54), cloned from Stendarr (index 22).
+Extend all 55-element deity arrays in the Nordic addon TrackerQuest
+with a new Tsun entry (index 55), cloned from Zenithar (index 13).
 Modifies the file in-place using text-based insertion to preserve YAML formatting.
 """
 
 TARGET = r"wintersunNordicAddon\Quests\WSN_TrackerQuest_Quest - 005901_Wintersun - Faiths of Skyrim.esp.yaml"
-CLONE_INDEX = 22  # Stendarr
-CURRENT_SIZE = 54  # arrays currently have 54 elements (0-53)
+CLONE_INDEX = 13  # Zenithar
+CURRENT_SIZE = 55  # arrays currently have 55 elements (0-54)
 
-# Overrides for Stuhn
+# Overrides for Tsun
 OVERRIDES = {
-    'WSN_DeityName': ['      - Stuhn\n'],
+    'WSN_DeityName': ['      - Tsun\n'],
     'WSN_DivineType': ['      - Nordic Deity\n'],
     'WSN_DivineTypeID': ['      - 0\n'],
     'WSN_Blessing': [
         "      - Name: ''\n",
-        "        Object: 00081E:WintersunNordicDivines.esp\n",
+        "        Object: 00082F:WintersunNordicDivines.esp\n",
     ],
     'WSN_FavorDisplay': [
         "      - Name: ''\n",
-        "        Object: 000821:WintersunNordicDivines.esp\n",
+        "        Object: 000832:WintersunNordicDivines.esp\n",
     ],
     'WSN_Tenet': [
         "      - Name: ''\n",
-        "        Object: 000823:WintersunNordicDivines.esp\n",
+        "        Object: 000834:WintersunNordicDivines.esp\n",
     ],
     'WSN_Boon1': [
         "      - Name: ''\n",
-        "        Object: 000825:WintersunNordicDivines.esp\n",
+        "        Object: 000837:WintersunNordicDivines.esp\n",
     ],
     'WSN_Boon2': [
         "      - Name: ''\n",
-        "        Object: 000829:WintersunNordicDivines.esp\n",
+        "        Object: 00083A:WintersunNordicDivines.esp\n",
     ],
 }
 
@@ -116,7 +116,7 @@ def main():
         lines = f.readlines()
 
     blocks = find_list_blocks(lines)
-    print(f"Found {len(blocks)} arrays with 52 elements to extend:")
+    print(f"Found {len(blocks)} arrays with {CURRENT_SIZE} elements to extend:")
 
     # Process in reverse order of position so insertions don't shift later blocks
     blocks.sort(key=lambda b: b['elements'][-1][1], reverse=True)
@@ -134,7 +134,7 @@ def main():
             new_lines = list(lines[src_start:src_end])
 
         lines[insert_pos:insert_pos] = new_lines
-        print(f"  {name}: added Stuhn entry ({len(new_lines)} lines)")
+        print(f"  {name}: added Tsun entry ({len(new_lines)} lines)")
 
     with open(TARGET, 'w', encoding='utf-8', newline='\n') as f:
         f.writelines(lines)

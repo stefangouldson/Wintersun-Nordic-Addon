@@ -1,0 +1,19 @@
+FormKey: 000838:WintersunNordicDivines.esp
+EditorID: WSN_Divine_Tsun_Boon2_Perk
+Name:
+  TargetLanguage: English
+  Value: Tsun
+Description:
+  TargetLanguage: English
+  Value: ''
+NumRanks: 1
+Playable: True
+Hidden: True
+Effects:
+- MutagenObjectType: PerkEntryPointModifyActorValue
+  Priority: 44
+  EntryPoint: ModPowerAttackDamage
+  PerkConditionTabCount: 3
+  ActorValue: VoiceRate
+  Value: 0.01
+  Modification: MultiplyOnePlusAVMult

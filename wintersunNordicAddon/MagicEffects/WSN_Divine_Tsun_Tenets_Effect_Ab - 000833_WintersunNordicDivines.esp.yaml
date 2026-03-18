@@ -1,0 +1,23 @@
+FormKey: 000833:WintersunNordicDivines.esp
+EditorID: WSN_Divine_Tsun_Tenets_Effect_Ab
+Name:
+  TargetLanguage: English
+  Value: Tenets of Tsun
+MenuDisplayObject: 00F93C:Wintersun - Faiths of Skyrim.esp
+Flags:
+- Recover
+- NoHitEvent
+- NoDuration
+- NoMagnitude
+- NoArea
+- NoHitEffect
+SpellmakingCastingTime: 0.5
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  Type: Script
+DualCastScale: 1
+CastingSoundLevel: Silent
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: Defeat epic foes. Strive to raise your Health. Never openly break the laws of Skyrim.

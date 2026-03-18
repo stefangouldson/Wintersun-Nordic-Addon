@@ -1,0 +1,20 @@
+FormKey: 000839:WintersunNordicDivines.esp
+EditorID: WSN_Divine_Tsun_Boon2_Effect_Ab
+Name:
+  TargetLanguage: English
+  Value: Guardian of the Bridge
+MenuDisplayObject: 00F93C:Wintersun - Faiths of Skyrim.esp
+Flags:
+- NoHitEvent
+- NoArea
+- NoHitEffect
+Archetype:
+  MutagenObjectType: MagicEffectPeakValueModArchetype
+  ActorValue: VoiceRate
+DualCastScale: 1
+PerkToApply: 000838:WintersunNordicDivines.esp
+CastingSoundLevel: Silent
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: Your power attacks deal <mag>% more damage.

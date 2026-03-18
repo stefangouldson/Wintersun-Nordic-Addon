@@ -8,8 +8,8 @@ Flags:
 - NoHitEvent
 - NoMagnitude
 - NoArea
-- NoHitEffect
 - HideInUI
+- NoHitEffect
 SpellmakingCastingTime: 0.5
 Archetype:
   MutagenObjectType: MagicEffectArchetype
