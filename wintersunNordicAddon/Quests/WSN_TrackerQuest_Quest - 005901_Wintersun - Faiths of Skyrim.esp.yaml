@@ -166,6 +166,8 @@ VirtualMachineAdapter:
         Object: 000801:WintersunNordicDivines.esp
       - Name: ''
         Object: 000811:WintersunNordicDivines.esp
+      - Name: ''
+        Object: 00081E:WintersunNordicDivines.esp
     - MutagenObjectType: ScriptObjectListProperty
       Name: WSN_Boon1
       Objects:
@@ -277,6 +279,8 @@ VirtualMachineAdapter:
         Object: 000807:WintersunNordicDivines.esp
       - Name: ''
         Object: 000818:WintersunNordicDivines.esp
+      - Name: ''
+        Object: 000825:WintersunNordicDivines.esp
     - MutagenObjectType: ScriptObjectListProperty
       Name: WSN_Boon2
       Objects:
@@ -388,6 +392,8 @@ VirtualMachineAdapter:
         Object: 00080B:WintersunNordicDivines.esp
       - Name: ''
         Object: 00081A:WintersunNordicDivines.esp
+      - Name: ''
+        Object: 000829:WintersunNordicDivines.esp
     - MutagenObjectType: ScriptObjectProperty
       Name: WSN_Cure_Spell
       Object: 0F8BE8:Wintersun - Faiths of Skyrim.esp
@@ -451,6 +457,7 @@ VirtualMachineAdapter:
       - the Magna-Ge
       - Kyne
       - Jhunal
+      - Stuhn
     - MutagenObjectType: ScriptObjectProperty
       Name: WSN_Divine_Kynareth_Boon2_Spell_ProcOnSelf
       Object: 0BBE82:Wintersun - Faiths of Skyrim.esp
@@ -511,6 +518,7 @@ VirtualMachineAdapter:
       - Deity
       - Divine
       - Nordic Deity
+      - Nordic Deity
     - MutagenObjectType: ScriptIntListProperty
       Name: WSN_DivineTypeID
       Data:
@@ -566,6 +574,7 @@ VirtualMachineAdapter:
       - 6
       - 6
       - 6
+      - 0
       - 0
       - 0
     - MutagenObjectType: ScriptObjectListProperty
@@ -642,6 +651,7 @@ VirtualMachineAdapter:
       - 1
       - 1
       - 1
+      - 1
     - MutagenObjectType: ScriptStringListProperty
       Name: WSN_DynamicStat0
       Data:
@@ -699,6 +709,7 @@ VirtualMachineAdapter:
       - Locations Discovered
       - Locations Discovered
       - ''
+      - Daedra Killed
     - MutagenObjectType: ScriptObjectListProperty
       Name: WSN_DynamicStat0_Multiplier
       Objects:
@@ -795,6 +806,8 @@ VirtualMachineAdapter:
       - Name: ''
         Object: 0B1C67:Wintersun - Faiths of Skyrim.esp
       - Name: ''
+      - Name: ''
+        Object: 0F8BEF:Wintersun - Faiths of Skyrim.esp
     - MutagenObjectType: ScriptStringListProperty
       Name: WSN_DynamicStat1
       Data:
@@ -852,6 +865,7 @@ VirtualMachineAdapter:
       - Magic Items Made
       - ''
       - ''
+      - Undead Killed
     - MutagenObjectType: ScriptObjectListProperty
       Name: WSN_DynamicStat1_Multiplier
       Objects:
@@ -932,6 +946,8 @@ VirtualMachineAdapter:
         Object: 3EBD84:Wintersun - Faiths of Skyrim.esp
       - Name: ''
       - Name: ''
+      - Name: ''
+        Object: 0F8BF3:Wintersun - Faiths of Skyrim.esp
     - MutagenObjectType: ScriptStringListProperty
       Name: WSN_DynamicStat2
       Data:
@@ -989,6 +1005,7 @@ VirtualMachineAdapter:
       - ''
       - ''
       - ''
+      - Dungeons Cleared
     - MutagenObjectType: ScriptObjectListProperty
       Name: WSN_DynamicStat2_Multiplier
       Objects:
@@ -1056,6 +1073,8 @@ VirtualMachineAdapter:
       - Name: ''
       - Name: ''
       - Name: ''
+      - Name: ''
+        Object: 0B1C66:Wintersun - Faiths of Skyrim.esp
     - MutagenObjectType: ScriptObjectProperty
       Name: WSN_Effect_Global_BlockDecay
       Object: 1B961A:Wintersun - Faiths of Skyrim.esp
@@ -1238,6 +1257,8 @@ VirtualMachineAdapter:
         Object: 000804:WintersunNordicDivines.esp
       - Name: ''
         Object: 000814:WintersunNordicDivines.esp
+      - Name: ''
+        Object: 000821:WintersunNordicDivines.esp
     - MutagenObjectType: ScriptObjectProperty
       Name: WSN_FavorDrain_Global
       Object: 00F93E:Wintersun - Faiths of Skyrim.esp
@@ -1316,6 +1337,7 @@ VirtualMachineAdapter:
         Object: 013743:Skyrim.esm
       - Name: ''
       - Name: ''
+      - Name: ''
     - MutagenObjectType: ScriptObjectListProperty
       Name: WSN_FavoredRace1
       Objects:
@@ -1386,6 +1408,7 @@ VirtualMachineAdapter:
         Object: 088794:Skyrim.esm
       - Name: ''
         Object: 088840:Skyrim.esm
+      - Name: ''
       - Name: ''
       - Name: ''
     - MutagenObjectType: ScriptObjectProperty
@@ -1665,9 +1688,11 @@ VirtualMachineAdapter:
       - 1
       - 1
       - 1
+      - 1
     - MutagenObjectType: ScriptFloatListProperty
       Name: WSN_PreviousFavor
       Data:
+      - 0
       - 0
       - 0
       - 0
@@ -1781,6 +1806,7 @@ VirtualMachineAdapter:
       - Name: ''
       - Name: ''
         Object: 3F0E9F:Wintersun - Faiths of Skyrim.esp
+      - Name: ''
       - Name: ''
       - Name: ''
       - Name: ''
@@ -1899,6 +1925,7 @@ VirtualMachineAdapter:
       - Name: ''
       - Name: ''
       - Name: ''
+      - Name: ''
     - MutagenObjectType: ScriptObjectProperty
       Name: WSN_Redguard_Ruptga_Boon1_Spell_ProcOnSelf
       Object: 1726F3:Wintersun - Faiths of Skyrim.esp
@@ -1963,6 +1990,7 @@ VirtualMachineAdapter:
       - CONJURATION
       - ''
       - ALTERATION
+      - ''
       - ''
       - ''
     - MutagenObjectType: ScriptObjectListProperty
@@ -2040,6 +2068,7 @@ VirtualMachineAdapter:
         Object: 3EBD8A:Wintersun - Faiths of Skyrim.esp
       - Name: ''
       - Name: ''
+      - Name: ''
     - MutagenObjectType: ScriptStringListProperty
       Name: WSN_StaticAttr
       Data:
@@ -2097,6 +2126,7 @@ VirtualMachineAdapter:
       - ''
       - stamina
       - Magicka
+      - ''
     - MutagenObjectType: ScriptObjectListProperty
       Name: WSN_StaticAttr_Multiplier
       Objects:
@@ -2159,6 +2189,7 @@ VirtualMachineAdapter:
         Object: 0B1C6E:Wintersun - Faiths of Skyrim.esp
       - Name: ''
         Object: 07A04F:Wintersun - Faiths of Skyrim.esp
+      - Name: ''
     - MutagenObjectType: ScriptStringListProperty
       Name: WSN_StaticSkills
       Data:
@@ -2216,6 +2247,7 @@ VirtualMachineAdapter:
       - ''
       - ''
       - Mage
+      - ''
     - MutagenObjectType: ScriptObjectListProperty
       Name: WSN_StaticSkills_Multiplier
       Objects:
@@ -2278,6 +2310,7 @@ VirtualMachineAdapter:
       - Name: ''
       - Name: ''
         Object: 1A00DA:Wintersun - Faiths of Skyrim.esp
+      - Name: ''
     - MutagenObjectType: ScriptStringListProperty
       Name: WSN_StaticStat0
       Data:
@@ -2335,6 +2368,7 @@ VirtualMachineAdapter:
       - ''
       - Words Of Power Learned
       - ''
+      - Side Quests Completed
     - MutagenObjectType: ScriptObjectListProperty
       Name: WSN_StaticStat0_Multiplier
       Objects:
@@ -2403,6 +2437,8 @@ VirtualMachineAdapter:
       - Name: ''
         Object: 0B1C69:Wintersun - Faiths of Skyrim.esp
       - Name: ''
+      - Name: ''
+        Object: 0F8C07:Wintersun - Faiths of Skyrim.esp
     - MutagenObjectType: ScriptStringListProperty
       Name: WSN_StaticStat1
       Data:
@@ -2414,6 +2450,7 @@ VirtualMachineAdapter:
       - ''
       - ''
       - Words Of Power Learned
+      - ''
       - ''
       - ''
       - ''
@@ -2518,6 +2555,7 @@ VirtualMachineAdapter:
       - Name: ''
       - Name: ''
       - Name: ''
+      - Name: ''
     - MutagenObjectType: ScriptStringListProperty
       Name: WSN_StaticStat2
       Data:
@@ -2575,9 +2613,11 @@ VirtualMachineAdapter:
       - ''
       - ''
       - ''
+      - ''
     - MutagenObjectType: ScriptObjectListProperty
       Name: WSN_StaticStat2_Multiplier
       Objects:
+      - Name: ''
       - Name: ''
       - Name: ''
       - Name: ''
@@ -2758,6 +2798,8 @@ VirtualMachineAdapter:
         Object: 000806:WintersunNordicDivines.esp
       - Name: ''
         Object: 000816:WintersunNordicDivines.esp
+      - Name: ''
+        Object: 000823:WintersunNordicDivines.esp
     - MutagenObjectType: ScriptFloatProperty
       Name: WSN_ThresholdFavored
       Data: 100

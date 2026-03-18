@@ -1,0 +1,29 @@
+FormKey: 00082C:WintersunNordicDivines.esp
+EditorID: WSN_Divine_Stuhn_Boon2_CooldownMarker
+Name:
+  TargetLanguage: English
+  Value: Mercy of Stuhn Cooldown
+Flags:
+- Recover
+- NoHitEvent
+- NoMagnitude
+- NoArea
+- NoHitEffect
+- HideInUI
+SpellmakingCastingTime: 0.5
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  Type: Script
+CastType: FireAndForget
+TargetType: Touch
+DualCastScale: 1
+CastingSoundLevel: Silent
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: ''
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Data:
+    MutagenObjectType: HasMagicEffectConditionData
+    MagicEffect: 00082C:WintersunNordicDivines.esp

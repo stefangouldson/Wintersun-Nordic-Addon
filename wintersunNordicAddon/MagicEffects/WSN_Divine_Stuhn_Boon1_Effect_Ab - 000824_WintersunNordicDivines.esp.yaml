@@ -1,0 +1,20 @@
+FormKey: 000824:WintersunNordicDivines.esp
+EditorID: WSN_Divine_Stuhn_Boon1_Effect_Ab
+Name:
+  TargetLanguage: English
+  Value: Whalebone Shield
+MenuDisplayObject: 00F93C:Wintersun - Faiths of Skyrim.esp
+Flags:
+- Recover
+- NoHitEvent
+- NoArea
+- NoHitEffect
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  ActorValue: DamageResist
+DualCastScale: 1
+CastingSoundLevel: Silent
+Sounds: []
+Description:
+  TargetLanguage: English
+  Value: Stuhn's favor grants <mag> additional armor rating.

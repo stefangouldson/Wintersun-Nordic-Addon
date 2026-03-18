@@ -1,37 +1,37 @@
 """
-Extend all 53-element deity arrays in the Nordic addon TrackerQuest
-with a new Jhunal entry (index 53), cloned from Julianos (index 0).
+Extend all 54-element deity arrays in the Nordic addon TrackerQuest
+with a new Stuhn entry (index 54), cloned from Stendarr (index 22).
 Modifies the file in-place using text-based insertion to preserve YAML formatting.
 """
 
 TARGET = r"wintersunNordicAddon\Quests\WSN_TrackerQuest_Quest - 005901_Wintersun - Faiths of Skyrim.esp.yaml"
-CLONE_INDEX = 0  # Julianos
-CURRENT_SIZE = 53  # arrays currently have 53 elements (0-52, Kyne is 52)
+CLONE_INDEX = 22  # Stendarr
+CURRENT_SIZE = 54  # arrays currently have 54 elements (0-53)
 
-# Overrides for Jhunal
+# Overrides for Stuhn
 OVERRIDES = {
-    'WSN_DeityName': ['      - Jhunal\n'],
+    'WSN_DeityName': ['      - Stuhn\n'],
     'WSN_DivineType': ['      - Nordic Deity\n'],
     'WSN_DivineTypeID': ['      - 0\n'],
     'WSN_Blessing': [
         "      - Name: ''\n",
-        "        Object: 000811:WintersunNordicDivines.esp\n",
+        "        Object: 00081E:WintersunNordicDivines.esp\n",
     ],
     'WSN_FavorDisplay': [
         "      - Name: ''\n",
-        "        Object: 000814:WintersunNordicDivines.esp\n",
+        "        Object: 000821:WintersunNordicDivines.esp\n",
     ],
     'WSN_Tenet': [
         "      - Name: ''\n",
-        "        Object: 000816:WintersunNordicDivines.esp\n",
+        "        Object: 000823:WintersunNordicDivines.esp\n",
     ],
     'WSN_Boon1': [
         "      - Name: ''\n",
-        "        Object: 000818:WintersunNordicDivines.esp\n",
+        "        Object: 000825:WintersunNordicDivines.esp\n",
     ],
     'WSN_Boon2': [
         "      - Name: ''\n",
-        "        Object: 00081A:WintersunNordicDivines.esp\n",
+        "        Object: 000829:WintersunNordicDivines.esp\n",
     ],
 }
 
@@ -134,7 +134,7 @@ def main():
             new_lines = list(lines[src_start:src_end])
 
         lines[insert_pos:insert_pos] = new_lines
-        print(f"  {name}: added Jhunal entry ({len(new_lines)} lines)")
+        print(f"  {name}: added Stuhn entry ({len(new_lines)} lines)")
 
     with open(TARGET, 'w', encoding='utf-8', newline='\n') as f:
         f.writelines(lines)

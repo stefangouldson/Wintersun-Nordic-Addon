@@ -60,6 +60,6 @@ Temporary:
   Base: 00081B:WintersunNordicDivines.esp
   Placement:
     Position: 70163.03, 26768.418, -2628.939
-    Rotation: 0.059999824, -0, 0
+    Rotation: 0.059999824, 0, 0
 MajorFlags:
 - 0x40000

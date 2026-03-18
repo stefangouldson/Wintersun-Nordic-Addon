@@ -1,0 +1,29 @@
+FormKey: 000820:WintersunNordicDivines.esp
+EditorID: WSN_WorshipRequest_Message_Divine_Stuhn
+Description:
+  TargetLanguage: English
+  Value: >-
+    Follow the God Stuhn?
+
+
+    Stuhn is the Nordic God of Ransom and taught Nords how to take prisoners of war and showed them mercy.
+
+
+    Follower:
+
+    Prayer restores Health for you and nearby allies.
+
+
+    Tenets:
+
+    Clear dungeons of evil. Slay daedra and the undead. Complete side quests. Never openly break the laws of Skyrim. Never practice the foul summoning arts.
+INAM: 0x00000000
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Accept Stuhn
+- Text:
+    TargetLanguage: English
+    Value: Cancel
