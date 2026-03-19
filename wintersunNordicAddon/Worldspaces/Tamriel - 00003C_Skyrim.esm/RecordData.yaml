@@ -28,4 +28,131 @@ ObjectBoundsMax: 62, 51
 Music: 01BA72:Skyrim.esm
 HdLodDiffuseTexture: Data\Textures\Landscape\Mountains\MountainSlab02.dds
 HdLodNormalTexture: Data\Textures\Landscape\Mountains\MountainSlab02_N.dds
+TopCell:
+  FormKey: 000D74:Skyrim.esm
+  IsCompressed: True
+  MajorRecordFlagsRaw: 263168
+  Version2: 11
+  SkyrimMajorRecordFlags:
+  - 0x400
+  - Compressed
+  Flags:
+  - HasWater
+  Grid:
+    Flags: -1502940160
+  WaterHeight: -2.1474836E+09
+  Regions:
+  - 041449:Skyrim.esm
+  - 08EED7:Skyrim.esm
+  - 0C5858:Skyrim.esm
+  - 0C5859:Skyrim.esm
+  - 0CAD0A:Skyrim.esm
+  Persistent:
+  - MutagenObjectType: PlacedObject
+    FormKey: 00083D:WintersunNordicDivines.esp
+    MajorRecordFlagsRaw: 1024
+    EditorID: WSN_ShrineOfKyne_MapMarker
+    SkyrimMajorRecordFlags:
+    - 0x400
+    Base: 000010:Skyrim.esm
+    LocationRefTypes:
+    - 10F63C:Skyrim.esm
+    LinkedReferences:
+    - Reference: 00083E:WintersunNordicDivines.esp
+    MapMarker:
+      Name:
+        TargetLanguage: English
+        Value: Shrine of Kyne
+      Type: Shrine
+    Placement:
+      Position: -49953.75, 48823.96, -10232.906
+  - MutagenObjectType: PlacedObject
+    FormKey: 00083E:WintersunNordicDivines.esp
+    MajorRecordFlagsRaw: 1024
+    SkyrimMajorRecordFlags:
+    - 0x400
+    Base: 000034:Skyrim.esm
+    Placement:
+      Position: -49653.75, 48523.96, -10232.906
+  - MutagenObjectType: PlacedObject
+    FormKey: 00083F:WintersunNordicDivines.esp
+    MajorRecordFlagsRaw: 1024
+    EditorID: WSN_ShrineOfJhunal_MapMarker
+    SkyrimMajorRecordFlags:
+    - 0x400
+    Base: 000010:Skyrim.esm
+    LocationRefTypes:
+    - 10F63C:Skyrim.esm
+    LinkedReferences:
+    - Reference: 000840:WintersunNordicDivines.esp
+    MapMarker:
+      Name:
+        TargetLanguage: English
+        Value: Jhunal's Fallen
+      Type: Shrine
+    Placement:
+      Position: 70163.03, 26768.418, -2628.939
+  - MutagenObjectType: PlacedObject
+    FormKey: 000840:WintersunNordicDivines.esp
+    MajorRecordFlagsRaw: 1024
+    SkyrimMajorRecordFlags:
+    - 0x400
+    Base: 000034:Skyrim.esm
+    Placement:
+      Position: 70463.03, 27068.418, -2628.939
+  - MutagenObjectType: PlacedObject
+    FormKey: 000841:WintersunNordicDivines.esp
+    MajorRecordFlagsRaw: 1024
+    EditorID: WSN_ShrineOfStuhn_MapMarker
+    SkyrimMajorRecordFlags:
+    - 0x400
+    Base: 000010:Skyrim.esm
+    LocationRefTypes:
+    - 10F63C:Skyrim.esm
+    LinkedReferences:
+    - Reference: 000842:WintersunNordicDivines.esp
+    MapMarker:
+      Name:
+        TargetLanguage: English
+        Value: Shrine of Stuhn
+      Type: Shrine
+    Placement:
+      Position: -44675.63, -5729.083, -6636.306
+  - MutagenObjectType: PlacedObject
+    FormKey: 000842:WintersunNordicDivines.esp
+    MajorRecordFlagsRaw: 1024
+    SkyrimMajorRecordFlags:
+    - 0x400
+    Base: 000034:Skyrim.esm
+    Placement:
+      Position: -44375.63, -5429.083, -6636.306
+  - MutagenObjectType: PlacedObject
+    FormKey: 000843:WintersunNordicDivines.esp
+    MajorRecordFlagsRaw: 1024
+    EditorID: WSN_ShrineOfTsun_MapMarker
+    SkyrimMajorRecordFlags:
+    - 0x400
+    Base: 000010:Skyrim.esm
+    LocationRefTypes:
+    - 10F63C:Skyrim.esm
+    LinkedReferences:
+    - Reference: 000844:WintersunNordicDivines.esp
+    MapMarker:
+      Name:
+        TargetLanguage: English
+        Value: Shrine of Tsun
+      Type: Shrine
+    Placement:
+      Position: -56542.05, 1965.1384, -5963.228
+  - MutagenObjectType: PlacedObject
+    FormKey: 000844:WintersunNordicDivines.esp
+    MajorRecordFlagsRaw: 1024
+    SkyrimMajorRecordFlags:
+    - 0x400
+    Base: 000034:Skyrim.esm
+    Placement:
+      Position: -56242.05, 2265.1384, -5963.228
+  MajorFlags:
+  - Persistent
+  - 0x40000
 SubCellsUnknown: 1028
