@@ -16,7 +16,7 @@ CastType: FireAndForget
 Effects:
 - BaseEffect: 00082E:WintersunNordicDivines.esp
   Data:
-    Magnitude: 15
+    Magnitude: 25
     Duration: 28800
 - BaseEffect: 0FBFF5:Skyrim.esm
   Data:

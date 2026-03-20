@@ -3,20 +3,20 @@ EditorID: WSN_WorshipRequest_Message_Divine_Tsun
 Description:
   TargetLanguage: English
   Value: >-
-    Follow the God Tsun?
+    Follow the Nordic God Tsun?
 
 
-    Tsun is the Nordic God of Trials Against Adversity, shield-thane of Shor and guardian of the Whale Bone Bridge to the Hall of Valor.
+    Tsun is the God of Trials Against Adversity and guardian of the Whale Bone Bridge..
 
 
     Follower:
 
-    Health regenerates faster in combat.
+    Regenerate health faster in combat
 
 
     Tenets:
 
-    Defeat epic foes. Strive to raise your Health. Never openly break the laws of Skyrim.
+    Defeat epic foes in open combat, especially those stronger than you. Strive to raise your Health. Never openly break the laws of Skyrim.
 INAM: 0x00000000
 Flags:
 - MessageBox
