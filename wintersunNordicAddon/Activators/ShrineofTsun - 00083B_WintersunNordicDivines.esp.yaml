@@ -14,8 +14,8 @@ VirtualMachineAdapter:
       Name: TempleBlessing
       Object: 00082F:WintersunNordicDivines.esp
 ObjectBounds:
-  First: -16, -16, 54
-  Second: 15, 15, 86
+  First: -16, -16, 55
+  Second: 18, 18, 68
 Name:
   TargetLanguage: English
   Value: Shrine of Tsun
