@@ -719,7 +719,7 @@ VirtualMachineAdapter:
       - Locations Discovered
       - Locations Discovered
       - ''
-      - Daedra Killed
+      - Brawls Won
       - Dungeons Cleared
     - MutagenObjectType: ScriptObjectListProperty
       Name: WSN_DynamicStat0_Multiplier
@@ -878,7 +878,7 @@ VirtualMachineAdapter:
       - Magic Items Made
       - ''
       - ''
-      - Undead Killed
+      - Persuasions
       - ''
     - MutagenObjectType: ScriptObjectListProperty
       Name: WSN_DynamicStat1_Multiplier
